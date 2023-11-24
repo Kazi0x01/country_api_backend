@@ -1,0 +1,11 @@
+{
+  "name": "country_api_backend",
+  "version": "1.0.0",
+  "description": "This project is a Node.js/Express API that serves information about countries and provides an endpoint for embedding Google Maps. The API fetches data from a third-party country API, processes it, and exposes a route to retrieve information about a specific country. Additionally, it includes a route for embedding Google Maps based on latitude and longitude coordinates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Sahota",
+  "license": "ISC"
+}
