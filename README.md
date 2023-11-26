@@ -15,7 +15,7 @@ This Node.js application serves as an API to retrieve information about countrie
 
 - Node.js installed on your machine
 - NPM (Node Package Manager) installed
-- REST Countries API key
+- Google Maps Embed API key
 
 ### Installation
 
@@ -54,16 +54,28 @@ This Node.js application serves as an API to retrieve information about countrie
 
 2. Request Endpoints
 
-- To get country information:
+- To get country information :
 
   ```bash
   GET http://localhost:3000/?country=<country-name>
   ```
 
-- To get embed Google maps
+- To get embedded Google Maps based on geo-location
 
   ```bash
   GET http://localhost:3000/embed-map?lat=<latitude>&lng=<longitude>
+  ```
+
+## Example
+
+- To get information about Republic Of Ireland
+  ```bash
+  GET http://localhost:3000/?country=Republic%20Of%20Ireland
+  ```
+- Embed a Google Map of New York City
+
+  ```bash
+  GET http://localhost:3000/embed-map?lat=40.7128&lng=-74.0060
   ```
 
 # Licence
