@@ -4,18 +4,26 @@
 
 This Node.js application serves as an API to retrieve information about countries using the [REST Countries API](https://restcountries.com/). It provides data such as country details, currencies, languages, and allows users to embed Google Maps for a specified location.
 
+## Table of Contents
+
+- [Project Overview](#overview)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting-started)
+- [License](#license)
+
 ## Features
 
 - Retrieve detailed information about a country.
 - Embed Google Maps for a specific latitude and longitude.
 
-## Getting Started
-
-### Prerequisites
+## Dependencies
 
 - Node.js installed on your machine
 - NPM (Node Package Manager) installed
 - Google Maps Embed API key
+
+## Getting Started
 
 ### Installation
 
@@ -23,7 +31,6 @@ This Node.js application serves as an API to retrieve information about countrie
 
    ```bash
    git clone <repository-url>
-
    ```
 
 2. Install dependencies:
@@ -66,7 +73,7 @@ This Node.js application serves as an API to retrieve information about countrie
   GET http://localhost:3000/embed-map?lat=<latitude>&lng=<longitude>
   ```
 
-## Example
+### Example
 
 - To get information about Republic Of Ireland
   ```bash
@@ -77,6 +84,10 @@ This Node.js application serves as an API to retrieve information about countrie
   ```bash
   GET http://localhost:3000/embed-map?lat=40.7128&lng=-74.0060
   ```
+
+### Try it out
+
+This Node application is up and running at [Countries API](https://country-api-ez0o.onrender.com)
 
 # Licence
 
